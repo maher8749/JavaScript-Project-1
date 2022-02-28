@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar-js_project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-img">
+       <div class="nav-bar" id="bg-navbar">
+           <nav>
+               <ul>
+                   <li><a href="">HOME</a></li>
+                   <li><a href="">ABOUT</a></li>
+                   <li><a href="">SERVICES</a></li>
+                   <li><a href="">CONTACTS</a></li>
+               </ul>
+           </nav>
+       </div>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias architecto repudiandae ad sapiente perspiciatis? Praesentium quae, aut quas labore esse sapiente facilis omnis ullam molestiae culpa, eos reiciendis cum ex quasi veritatis totam. Quae enim labore eum eaque vel? Delectus nemo nobis repudiandae quo! Odit impedit possimus molestiae totam cupiditate facilis pariatur ut placeat unde veniam incidunt modi quia suscipit corrupti deserunt enim illum libero optio, dolorem aperiam beatae, tenetur, vitae quidem. Nihil corrupti vitae dolore vel impedit repellendus consequuntur cumque animi autem dolorem velit eligendi labore perspiciatis, ut veritatis accusamus eaque at blanditiis similique excepturi ipsa? Nam quidem quaerat molestias consectetur eveniet voluptatibus nisi! Eaque laborum architecto amet aut error? Tenetur, recusandae aperiam! Culpa doloribus odio ipsum error natus quasi placeat illo, esse explicabo eos, minima molestiae possimus facilis numquam veniam harum quam laborum sunt saepe officiis quibusdam? Nisi esse est sed assumenda ut perspiciatis, autem saepe vitae. Beatae adipisci unde enim asperiores aliquam quidem omnis atque explicabo iure dolor mollitia repellat maxime voluptas deserunt fuga quibusdam exercitationem fugit impedit quisquam architecto, ullam esse rerum quas! In consequuntur a dolorem, impedit accusantium assumenda provident. Quia cumque officia maiores quos voluptatum architecto eligendi, hic numquam illo! Doloribus ex consequuntur tempora minima, quos cum facilis. Ducimus maiores doloremque quidem sit officia quae facere illo sequi autem debitis animi temporibus nisi dicta laudantium, voluptatem magnam numquam, ullam pariatur voluptate. Ratione voluptate repudiandae minus facilis, optio deleniti ullam repellat illo officia maxime? Ratione corrupti beatae aliquam a dolor earum nesciunt iusto perspiciatis! Delectus assumenda labore possimus eum corporis impedit fugiat iste, ut esse reiciendis suscipit minima voluptate sint, cumque quia molestias repudiandae velit placeat magnam explicabo hic. Eius impedit ratione doloribus cum error atque rerum numquam fugit pariatur! Necessitatibus a iure esse expedita, velit voluptatem delectus deleniti, ut ducimus inventore ullam officia quisquam eum quidem provident, aliquam veritatis ipsa fugiat nesciunt praesentium. Libero veritatis neque sunt cupiditate beatae voluptatibus aspernatur, possimus esse cumque mollitia accusantium, excepturi reiciendis. Consequuntur laborum alias ullam cupiditate quam in dolorem repellendus voluptates, nobis, ut suscipit soluta. Voluptate, a voluptas, numquam eveniet natus fugit deserunt nihil nesciunt illo aperiam laborum illum dicta sequi assumenda ipsum saepe nobis amet tenetur doloribus nostrum tempore sapiente alias quis harum. Necessitatibus voluptate optio, cum consectetur ducimus est repudiandae, cumque eveniet voluptatem id corporis veritatis molestias voluptatum. Magnam placeat sint expedita quisquam facere consectetur aliquid facilis quo aut officia quis officiis iusto, suscipit quos aspernatur quidem porro perferendis, molestias accusamus rerum, quibusdam nam tempora. Dolorem perferendis quod possimus, ullam a earum saepe repudiandae atque? Repellendus assumenda veniam deleniti illum accusamus dolor nulla voluptatum eum esse debitis repellat reprehenderit iusto libero, ratione inventore ut, quibusdam suscipit cum qui, similique possimus magni hic. Voluptatum accusantium rem dolor rerum dolorem officia a cumque ut eaque ea assumenda illo vitae repellat minima minus maiores eligendi soluta cum harum, alias nihil perspiciatis aliquam odio quod. Cupiditate tenetur culpa quam voluptatum laboriosam aperiam nihil ut, ex vitae, sit distinctio. Blanditiis suscipit dolorem ratione? Ratione et cupiditate illo? Harum quaerat modi quam quasi dolorum repellat? Quod quasi reiciendis eligendi autem iure enim mollitia, deserunt cumque veniam officia atque accusantium accusamus inventore ea deleniti esse ipsam aperiam impedit iste aliquid excepturi! Est adipisci sed animi aliquid, minima numquam rerum blanditiis deserunt provident in, voluptatem, eaque soluta velit cum beatae? Aliquid enim obcaecati distinctio perferendis? Excepturi quo temporibus non voluptatibus aliquid assumenda rem ducimus, animi totam ad molestias maiores maxime cumque mollitia voluptatum ea reprehenderit, itaque doloremque facilis nihil minima commodi, eveniet error ipsum. Recusandae quibusdam nesciunt modi voluptatem. Facere quia temporibus eius repellat libero eveniet! Dolore quo obcaecati explicabo officia veniam doloribus!</p>
+
+
+      <!-- While verticaly scrolling make navbar background color red  -->
+    <script>
+        var bg_navbar = document.getElementById('bg-navbar');
+        window.onscroll = function(){
+            var scroll_nav = window.scrollY;
+            if(scroll_nav >=100){
+                bg_navbar.classList.add('after-scroll-navbar');
+            }
+            else{
+                bg_navbar.classList.remove('after-scroll-navbar');
+            }
+        }
+    </script>
+
+</body>
+</html>
